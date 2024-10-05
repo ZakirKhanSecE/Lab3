@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<title>Sumbit A Blog</title>
+
+<style>
+h2 {
+margin:5% ;
+text-align: center;
+background-color: white;
+border-color: black;
+border-style: solid;
+border-radius: 5px;
+border-width: 2px;
+margin-left: 25%;
+margin-right: 25%;
+height: 5%;
+padding: 8px;
+}
+input {
+margin-right: 35%;
+margin-left: 35%;
+margin-top: 1%;
+border-color: black;
+border-style: solid;
+padding: 8px;
+text-align: center;   
+}
+
+select {
+margin-top: 1%;
+margin-left: 35%;
+margin-right: 35%;
+border-color: black;
+border-style: solid;
+padding: 8px;
+text-align: center;
+}
+
+button {
+margin-top: 1%;
+margin-left: 40%;
+margin-right: 40%;
+border-color: black;
+border-style: solid;
+padding: 8px;
+text-align: center;
+}
+
+#submitbutton {
+margin-right: 45%;
+margin-left: 45%;
+margin-top: 1%;
+border-color: black;
+border-style: solid;
+padding: 8px;
+text-align: center;  
+}
+
+</style>
+</head>
+
+<body>
+<h2>Submit Your Personal Blog!</h2>
+<table>
+<tr>
+<input type="text" name="title" placeholder="Enter the blog's title">
+<input type="text" name="author" placeholder="Enter the blog's author" >
+<input type="text" name="content" placeholder="Enter the blog's content">
+</tr>
+</table>
+<select name="categories" id="category-select">
+<option value="">Chose a blog category</option>
+<option value="informative">Informative</option>
+<option value="personal">Personal</option>
+<option value="inspirational">inspirational</option>
+</select>
+<input type="submit" value="Submit" id="submitbutton">
+<button type="button" onclick="alert('Form Submitted!')">Submit Form</button>
+</body>
+
+</html>

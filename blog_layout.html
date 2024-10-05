@@ -1,0 +1,93 @@
+<html>
+
+<head>
+<title>Blog Layout</title>
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Times New Roman', Times, serif;
+padding: 10%;
+background: #ffffff;
+text-align: center;
+}
+.header {
+padding: 7%;
+font-size: large;
+color: grey;
+text-align: center;
+background: #b7e9dd;
+}
+
+.leftcolumn {
+float: left;
+width: 75%
+}
+
+.rightcolumn {
+float: left;
+width: 20%;
+padding-left: 10;
+}
+
+.placeholderimage {
+background-color: #b7e9dd;
+width: 90%;
+}
+
+.card {
+    background-color: #b7e9dd;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 10%;
+    text-align: center;
+    background: #b7e9dd;
+    margin-top: 10%;
+
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+<h2>Name of Blog</h2>
+</div>
+<div class="row">
+<div class="leftcolumn">
+    <div class="card">
+        <h2 style="text-align: center;">Main Content</h2>
+        <p>Placeholder text</p>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    <a href="file:///Users/zakirkhan/CPAN%20134/blog_post_form.html">Make your own blog!</a>
+
+    </div>
+</div>
+<div class="rightcolumn">
+    <div class="card">
+        <h2>Navigation Menu</h2>
+        <select name="blogsections" id="blogsection-sekect">
+            <option value="">Sections of blog</option>
+            <option value="section1">Section 1</option>
+            <option value="section2">Section 2</option>
+        </select>
+    </div>
+    <div class="card">
+        <h3>Additional Links</h3>
+        <p>Check out diffrent blogs!</p>
+        <a href="file:///Users/zakirkhan/CPAN%20134/multimedia_blog_post.html">Careers
+Destinations</a>
+</div>
+</body>
